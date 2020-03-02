@@ -8,7 +8,7 @@ public class RomanNumeral {
     }
 
     public String getRomanNumeral() {
-        String units = new String[]{"", "I", "II", "III", "IV", "V",}[number % 10];
+        String units = new String[]{"", "I", "II", "III", "IV", "V", "VI",}[number % 10];
         return units;
     }
 }

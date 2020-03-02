@@ -1,5 +1,6 @@
 package test;
 
+import main.RomanNumeral;
 import org.junit.Test;
 import org.junit.Ignore;
 
@@ -7,13 +8,13 @@ import static org.junit.Assert.assertEquals;
 
 public class RomanNumeralTest {
 
-//    private RomanNumeral romanNumeral;
-//
-//    @Test
-//    public void test1ToRomanNumberI() {
-//        romanNumeral = new RomanNumeral(1);
-//        assertEquals("I", romanNumeral.getRomanNumeral());
-//    }
+    private RomanNumeral romanNumeral;
+
+    @Test
+    public void test1ToRomanNumberI() {
+        romanNumeral = new RomanNumeral(1);
+        assertEquals("I", romanNumeral.getRomanNumeral());
+    }
 //
 //    @Ignore("Remove to run test")
 //    @Test

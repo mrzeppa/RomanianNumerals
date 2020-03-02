@@ -57,13 +57,12 @@ public class RomanNumeralTest {
         romanNumeral = new RomanNumeral(27);
         assertEquals("XXVII", romanNumeral.getRomanNumeral());
     }
-//
-//    @Ignore("Remove to run test")
-//    @Test
-//    public void test48ToRomanNumberXLVIII() {
-//        romanNumeral = new RomanNumeral(48);
-//        assertEquals("XLVIII", romanNumeral.getRomanNumeral());
-//    }
+
+    @Test
+    public void test48ToRomanNumberXLVIII() {
+        romanNumeral = new RomanNumeral(48);
+        assertEquals("XLVIII", romanNumeral.getRomanNumeral());
+    }
 //
 //    @Ignore("Remove to run test")
 //    @Test

@@ -1,4 +1,5 @@
+dist: xenial
 language: java
 jdk:
-  - oraclejdk11
-script: java -cp .:junit-4.13.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore RomanNumeralTest RomanNumeral
+  - openjdk8
+  - openjdk11

@@ -9,7 +9,7 @@ public class RomanNumeral {
 
     public String getRomanNumeral() {
         String units = new String[]{"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"}[number % 10];
-        String tens = new String[]{"", "X", "XX", "XXX", "XL"}[(number % 100) / 10];
+        String tens = new String[]{"", "X", "XX", "XXX", "XL", "L"}[(number % 100) / 10];
         return tens + units;
     }
 }

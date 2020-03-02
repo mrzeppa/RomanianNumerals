@@ -11,6 +11,7 @@ public class RomanNumeral {
         String units = new String[]{"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"}[number % 10];
         String tens = new String[]{"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"}[(number % 100) / 10];
         String hundreds = new String[]{"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"}[(number % 1000) / 100];
-        return hundreds + tens + units;
+        String thousands = new String[]{"", "M"}[(number / 1000)];
+        return thousands + hundreds + tens + units;
     }
 }

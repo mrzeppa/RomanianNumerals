@@ -111,13 +111,12 @@ public class RomanNumeralTest {
         romanNumeral = new RomanNumeral(911);
         assertEquals("CMXI", romanNumeral.getRomanNumeral());
     }
-//
-//    @Ignore("Remove to run test")
-//    @Test
-//    public void test1024ToRomanNumberMXXIV() {
-//        romanNumeral = new RomanNumeral(1024);
-//        assertEquals("MXXIV", romanNumeral.getRomanNumeral());
-//    }
+
+    @Test
+    public void test1024ToRomanNumberMXXIV() {
+        romanNumeral = new RomanNumeral(1024);
+        assertEquals("MXXIV", romanNumeral.getRomanNumeral());
+    }
 //
 //    @Ignore("Remove to run test")
 //    @Test

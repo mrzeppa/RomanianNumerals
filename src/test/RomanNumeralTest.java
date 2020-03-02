@@ -81,13 +81,12 @@ public class RomanNumeralTest {
         romanNumeral = new RomanNumeral(93);
         assertEquals("XCIII", romanNumeral.getRomanNumeral());
     }
-//
-//    @Ignore("Remove to run test")
-//    @Test
-//    public void test141ToRomanNumberCXLI() {
-//        romanNumeral = new RomanNumeral(141);
-//        assertEquals("CXLI", romanNumeral.getRomanNumeral());
-//    }
+
+    @Test
+    public void test141ToRomanNumberCXLI() {
+        romanNumeral = new RomanNumeral(141);
+        assertEquals("CXLI", romanNumeral.getRomanNumeral());
+    }
 //
 //    @Ignore("Remove to run test")
 //    @Test

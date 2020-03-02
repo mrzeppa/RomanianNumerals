@@ -27,13 +27,12 @@ public class RomanNumeralTest {
         romanNumeral = new RomanNumeral(3);
         assertEquals("III", romanNumeral.getRomanNumeral());
     }
-//
-//    @Ignore("Remove to run test")
-//    @Test
-//    public void test4ToRomanNumberIV() {
-//        romanNumeral = new RomanNumeral(4);
-//        assertEquals("IV", romanNumeral.getRomanNumeral());
-//    }
+
+    @Test
+    public void test4ToRomanNumberIV() {
+        romanNumeral = new RomanNumeral(4);
+        assertEquals("IV", romanNumeral.getRomanNumeral());
+    }
 //
 //    @Ignore("Remove to run test")
 //    @Test
